@@ -35,7 +35,7 @@
 				"oggFolder": "music-ogg",
 				"oggMusicAlternative": false,
 				"fixSpeedSound": false,
-				"maxSimultaniousSounds": 20,
+				"maxSimultaniousSounds": 32,
 				"speechFolder": "CD_Files/SPEECH",
 				"autoShowObjectivesForForeignLanguages": true
 			},
@@ -50,7 +50,7 @@
 				"windowResWidth": 1920,
 				"windowResHeight": 1080,
 				"maintainAspectRatio": true,
-				"startWindowed": false,
+				"startWindowed": true,
 				"gameDetail": {
 					"description": [
 						"gameResWidth: In Game resolution. If using software render keep this low",
@@ -68,17 +68,17 @@
 					],
 					"gameResWidth": 1920,
 					"gameResHeight": 1080,
-					"gameUiScale": 2,
-					"useHighResGraphics": false,
+					"gameUiScale": 1,
+					"useHighResGraphics": true,
 					"highResGraphicsFolder": "graphics/high-res",
-					"useFixedMenuGraphics": false,
+					"useFixedMenuGraphics": true,
 					"fixedMenuGraphicsFolder": "graphics/fixed/menu",
 					"useExtendedFonts": true,
 					"extendedFontsFolder": "graphics/fixed/fonts",
 					"sky": true,
 					"reflections": true,
 					"dynamicLighting": true,
-					"viewDistanceScale": 2
+					"viewDistanceScale": 3
 				},
 				"threading": {
 					"description": [
@@ -89,8 +89,8 @@
 					],
 					"isActive": true,
 					"sizePercentToThreadRender": 10.0,
-					"numberOfRenderThreads": 3,
-					"assignToSpecificCores": false
+					"numberOfRenderThreads": 7,
+					"assignToSpecificCores": true
 				}
 			},
 			"game": {

@@ -68,7 +68,7 @@ There are two ways to build the Linux binary.
      - To install them on Debian/Pi OS: `sudo apt install -y cmake`  
   4. Make sure that you have the following dependencies as development packages (the exact names depend on your distro)
   - SDL2
-  - SDL2_mixer
+  - SDL-Mixer-X with libADLMIDI
   - SDL2_image
   - SDL2_ttf
   - spdlog
